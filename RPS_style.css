@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+.container {
+    max-width: 600px; /* Set maximum width */
+    margin: auto; /* Center the container */
+    text-align: center; /* Center-align text */
+}
+
+.scoreboard {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out the scores */
+    margin: 20px 0; /* Add vertical margin */
+}
+
+.score {
+    font-size: 1.5em; /* Increase font size */
+}
+
+.result {
+    font-size: 1.2em; /* Increase font size */
+    margin: 20px 0; /* Add vertical margin */
+}
+
+button {
+    padding: 10px 20px; /* Add padding to the button */
+    margin: 5px; /* Add margin around the button */
+}
